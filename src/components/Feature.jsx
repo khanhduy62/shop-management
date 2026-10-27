@@ -1,9 +1,16 @@
-import { storyblokEditable } from '@storyblok/react/rsc';
+import {
+	storyblokEditable,
+	StoryblokServerRichText,
+} from '@storyblok/react/rsc';
 
 const Feature = ({ blok }) => {
 	return (
 		<div className="feature" {...storyblokEditable(blok)}>
-			<span>{blok.name}</span>
+			{typeof blok.name === 'string' ? (
+				<span>{blok.name}</span>
+			) : (
+				<StoryblokServerRichText document={blok.name} />
+			)}
 		</div>
 	);
 };
