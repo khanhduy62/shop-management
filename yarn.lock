@@ -583,7 +583,7 @@
   dependencies:
     pure-parse "^0.0.0-beta.7"
 
-"@storyblok/react@^7.3.1":
+"@storyblok/react@^7.4.0":
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/@storyblok/react/-/react-7.4.0.tgz#bae8eae868c37e6d80cfc8c228961e9e8366e480"
   integrity sha512-WSv/5BMdz+A4QtQ0xnJnQkjnbhVgGdV3oJtVcG3YVrv6LJCbEYLgid+vrKdrvQIm9a5lIl1jDqPz+0IyHayWGg==
